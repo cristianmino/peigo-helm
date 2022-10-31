@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  peigo-ms-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-30T20:31:33.425248-05:00"
+    description: A Helm chart for Kubernetes
+    digest: 9253a380576784362f44a3fc0eaffb2e615bcfbd6fc827bb8171eb8bc363ca10
+    name: peigo-ms-chart
+    type: application
+    urls:
+    - charts/peigo-ms-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-30T20:31:33.421444-05:00"

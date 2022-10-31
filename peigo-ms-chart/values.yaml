@@ -1,0 +1,23 @@
+# Default values for peigo-ms-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+namespace: bgua-peigo-sandbox
+
+autoscaling:
+  enabled: true
+
+replicaCount: 3
+
+serviceAccountName: sa-ms-activities-bgua-peigo
+
+image:
+  repository: ""
+
+serviceAccount:
+  rolArn: ""
+
+service:
+  type: ClusterIP
+  port: 8080
+  targetPort: 8080
